@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     concurrency:
       group: production-deployment
+      cancel-in-progress: true
     steps:
       - name: deploy application
         run: |
