@@ -11,4 +11,4 @@ jobs:
         run: |
           echo "deployment started...."
           sleep 80
-          echo "deployment complted.."
+          echo "deployment complted..."
