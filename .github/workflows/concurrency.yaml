@@ -1,0 +1,12 @@
+name: job concurrency demo
+on:
+  push:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy application
+        run: |
+          echo "deployment started...."
+          sleep 80
+          echo "deployment complted"
